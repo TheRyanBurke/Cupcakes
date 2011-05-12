@@ -1,0 +1,11 @@
+Cupcakes
+
+Cupcakes is an XNA project for me to refamiliarize myself with the XNA SDK.  I started a few projects back in 2008 but didn't get much further than a 2-player 3D Pong game.  Now that the XNA SDK is built for deploying Windows, Xbox, and WinMo apps, I wanted to take it for another spin.
+
+In Cupcakes, the player controls two mixing bowls that can each hold up to three cupcakes.  Cupcakes can be added into the oven in the center of the screen.  The oven can hold up to six cupcakes.  When fired, the oven bakes the cupcakes and the player receives points based on oven temperature, combos, frosting colors and orientation thereof in the pan.  Players are trying to get a certain score, beat a timer, or survive until the oven blows up.
+
+Ovens generate heat when fired and slowly cool off.  Cupcakes that cannot be picked up by the mixing bowls because they are full also add heat to the oven.  There is an optimal heat zone that provides a bonus to scored points, as well as suboptimal zones that subtract points.  One of the elements of learning is to identify the rhythm for keeping an oven in the hot zone for maximum point scoring.
+
+There's a whole system of combos that I won't go into in this document that generate additional points based on the configuration of the cupcakes in the oven when it is fired.
+
+If you've made it this far into the README, feel free to download the source or latest compiled EXE and give it a go!  You'll need the XNA framework installed on your Windows machine in order to try it.
